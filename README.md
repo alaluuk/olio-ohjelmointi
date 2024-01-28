@@ -13,3 +13,8 @@ Esimerkissä ei vielä olio-ohjelmointia, vaan kertausta funktiosta.
 Funktiolle **doubleNumbers1** viedään argumentteina muuttujien arvot, jolloin funktio ei voi muokata noiden muuttujien arvoja.
 
 Funktiolle **doubleNumbers2** viedään argumentteina muuttujien osoitteet, jolloin funktio voi muokata noiden muuttujien arvoja.
+
+## classExample1
+
+Esimerkissä luodaan luokka **Student** ja siitä olio pinomuistiin (stack). Tutki kuinka luotaisiin olio kekoon (heap).
+
