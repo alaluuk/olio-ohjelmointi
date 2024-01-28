@@ -35,4 +35,10 @@ Esimerkissä havainnollistetaan konstruktorin merkitystä ja ylikuormittamista l
 
 Esimerkissä luodaan luokka **Animal** ja luokat **Cat** ja **Bear**, jotka molemmat perivät Animal-luokan.
 
-Tässä esimerkissä voidaan siis sanoa, että "Cat on Animal" ja "Bear on Animal".
+Tässä esimerkissä voidaan siis sanoa, että "Kissa on Eläin" ja "Karhu on eläin", joten tähän sopii perintä.
+
+## composition (kooste)
+
+Lisätään edelliseen esimerkkiin luokka Person. Laitetaan Person luokkaan Cat-luokan olio.
+
+Tässä esimerkissä voidaan sanoa, että "Henkilöllä on Kissa", joten tähän sopii kooste.
