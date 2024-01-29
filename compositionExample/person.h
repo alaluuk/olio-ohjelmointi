@@ -1,6 +1,7 @@
 #ifndef PERSON_H
 #define PERSON_H
 #include "cat.h"
+#include "dog.h"
 
 #include<iostream>
 
@@ -13,6 +14,7 @@ private:
     Cat objectCat1;
     //luodaan Cat luokan olio
     //eli kyseessä vahva kooste=composition
+    Dog objectDog1;
 public:
     Person();
     Person(string fn, string ln);
@@ -21,6 +23,7 @@ public:
     void setLname(const string &newLname);
     void personInfo();
     void setCatData();
+    void setDogData();
 
 };
 
