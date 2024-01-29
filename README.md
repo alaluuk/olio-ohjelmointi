@@ -20,7 +20,7 @@ Esimerkissä ei vielä olio-ohjelmointia, vaan tutkitaan satunnaislukujen genero
 
 ## classExample1
 
-Esimerkissä luodaan luokka **Student** ja siitä olio pinomuistiin (stack). Tutki kuinka luotaisiin olio kekoon (heap).
+Esimerkissä luodaan luokka **Student** ja siitä kaksi oliota pinomuistiin (stack) ja yksi kekoon (heap). Kekoon luodut oliot pitää muistaa tuhota itse.
 
 ## constructorExample
 
