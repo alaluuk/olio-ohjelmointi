@@ -24,3 +24,6 @@ constructorExample/*.user
 
 compositionExample/build
 compositionExample/*.user
+
+Maailma/build
+Maailma/*.user
