@@ -27,3 +27,6 @@ compositionExample/*.user
 
 Maailma/build
 Maailma/*.user
+
+GuiExample/build
+GuiExample/*.user
