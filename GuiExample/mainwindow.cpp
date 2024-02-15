@@ -44,6 +44,7 @@ void MainWindow::on_btnOpenForm2_clicked()
     objectForm2->setLname(lname);
     //objectForm2->open(); //Mainwindow:n ei voi kirjoittaa, jos Form2 auki
     objectForm2->show(); //Mainwindow:n voi kirjoittaa, vaikka Form2 auki
-    ui->btnOpenForm2->setDisabled(true);//estetään painikkeen btnOpenForm2 klikkaaminen
+    //ui->btnOpenForm2->setDisabled(true);//estetään painikkeen btnOpenForm2 klikkaaminen
+
 }
 

@@ -42,3 +42,7 @@ Tässä esimerkissä voidaan siis sanoa, että "Kissa on Eläin" ja "Karhu on el
 Lisätään edelliseen esimerkkiin luokka Person. Laitetaan Person luokkaan Cat-luokan olio.
 
 Tässä esimerkissä voidaan sanoa, että "Henkilöllä on Kissa", joten tähän sopii kooste.
+
+## GuiExample
+
+QtWidget sovellus, jossa tutkitaan kuinka dataa välitetään ikkunasta toiseen.
