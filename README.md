@@ -46,3 +46,22 @@ Tässä esimerkissä voidaan sanoa, että "Henkilöllä on Kissa", joten tähän
 ## GuiExample
 
 QtWidget sovellus, jossa tutkitaan kuinka dataa välitetään ikkunasta toiseen.
+
+## SQLite tietokantaa käyttävät sovellukset
+
+Tein esimerkiksi kolme sovellusta, joissa käytetään SQLite tietokantaa:
+<ol>
+<li>sqliteConsoleApp (https://github.com/alaluuk/sqliteConsoleApp) </li>
+<li>sqliteORM (https://github.com/alaluuk/sqliteORM)</li>
+<li>QmlSqlite (https://github.com/alaluuk/QmlSqlite)</li>
+</ol>
+
+<ol>
+<li>sqliteConsoleApp (Qt-konsolisovellus, jossa SQLite tietokanta) </li>
+<li>sqliteORM (Qt-konsolisovellus, jossa havainnollistetaan ORMien toimintaa)</li>
+<li>QmlSqlite (Qt-quick sovellus, jossa SQLite tietokanta)</li>
+</ol>
+
+ORM=Object Relational Mapper ja yleensä käytetään jotain valmista ORM:ia, jolloin sovellukseen ei tarvitse kirjoittaa SQL-koodia vaan tietokantaa hallitaan olioiden avulla.
+
+QmlSqlite sovelluksessa kannattaa tutkia main.qml tiedostoa. Siinä siis luodaan sovelluksen käyttöliittymä.
