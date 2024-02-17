@@ -37,6 +37,10 @@ Esimerkissä luodaan luokka **Animal** ja luokat **Cat** ja **Bear**, jotka mole
 
 Tässä esimerkissä voidaan siis sanoa, että "Kissa on Eläin" ja "Karhu on eläin", joten tähän sopii perintä.
 
+## Maailma
+
+Esimerkissä on luokka **Maa**, jossa sisältää muuttujat nimi ja vakiluku sekä niille getterit ja setterit. Tästä luokasta periytetään luokat Monarkia ja Tasavalta. Monarkialla on erityisominaisuus hallitsija ja Tasavallalla presidentti.
+
 ## composition (kooste)
 
 Lisätään edelliseen esimerkkiin luokka Person. Laitetaan Person luokkaan Cat-luokan olio.
