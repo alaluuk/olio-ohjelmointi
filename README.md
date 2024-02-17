@@ -39,7 +39,7 @@ Tässä esimerkissä voidaan siis sanoa, että "Kissa on Eläin" ja "Karhu on el
 
 ## Maailma
 
-Esimerkissä on luokka **Maa**, jossa sisältää muuttujat nimi ja vakiluku sekä niille getterit ja setterit. Tästä luokasta periytetään luokat Monarkia ja Tasavalta. Monarkialla on erityisominaisuus hallitsija ja Tasavallalla presidentti.
+Esimerkissä on luokka **Maa**, joka sisältää muuttujat nimi ja vakiluku sekä niille getterit ja setterit. Tästä luokasta periytetään luokat Monarkia ja Tasavalta. Monarkialla on erityisominaisuus hallitsija ja Tasavallalla presidentti.
 
 ## composition (kooste)
 
