@@ -43,6 +43,7 @@ void MainWindow::on_btnOpenForm2_clicked()
     objectForm2->setFname(fname);
     objectForm2->setLname(lname);
     //objectForm2->exec(); //Form2 on nyt modaali-ikkuna eli Mainwindow:n ei voi kirjoittaa, jos Form2 auki
+    //objectForm2->open(); //Form2 on nyt modaali-ikkuna eli Mainwindow:n ei voi kirjoittaa, jos Form2 auki
     objectForm2->show(); //Mainwindow:n voi kirjoittaa, vaikka Form2 auki
     //ui->btnOpenForm2->setDisabled(true);//estetään painikkeen btnOpenForm2 klikkaaminen
 
