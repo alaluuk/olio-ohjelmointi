@@ -56,6 +56,9 @@ QtWidget sovellus, jossa tutkitaan kuinka dataa välitetään ikkunasta toiseen.
 
 Edelleen tutkitaan kuinka data viedään uuteen ikkunaan. Ja tässä myös tutkitaan kuinka uudesta ikkunasta saadaan data alkuperäiseen ikkunaan. Esimerkissä tämä tehdään Signal-Slot systeemillä.
 
+Esimerkissä Form2 luokan olio esitellään mainwindow.h:n private osiossa, jotta olioon päästään käsiksi kaikista Form2:n metodeista.
+Olio luodaan Form2:n konstruktorissa ja tällä varmistetaan, että olio on luotu painettiin mitä painiketta hyvänsä.
+
 ## SQLite tietokantaa käyttävät sovellukset
 
 Tein esimerkiksi kolme sovellusta, joissa käytetään SQLite tietokantaa:
