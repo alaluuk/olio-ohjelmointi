@@ -26,6 +26,8 @@ private:
     Ui::Form2 *ui;
     QString nameFromMainwindow;
     QString lname="anonymous";
+    //luodaan seuraavanlainen metodi, jos halutaan
+    //määrittää mitä tapahtuu, kun form suljetaan
     void closeEvent(QCloseEvent *e);
 signals:
     void lnameIsSet();

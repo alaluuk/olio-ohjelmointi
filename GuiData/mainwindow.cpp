@@ -7,6 +7,9 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    //luodaan olio obejctForm2 täällä, jotta se on varmasti
+    //luotu ennenkuin painetaan painiketta btnOpenForm2
+    //tai painiketta btnSave
     objectForm2=new Form2(this);
 }
 

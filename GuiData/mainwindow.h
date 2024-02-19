@@ -26,6 +26,9 @@ private slots:
 private:
     Ui::MainWindow *ui;
     QString fname;
+    //esitellään Form2 luokan olio täällä, jotta
+    //sen näkyvyysalue on koko luokka eli kaikissa metodeissa
+    //päästään käsiksi olioon
     Form2 *objectForm2;
 };
 #endif // MAINWINDOW_H
