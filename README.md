@@ -51,6 +51,11 @@ Tässä esimerkissä voidaan sanoa, että "Henkilöllä on Kissa", joten tähän
 
 QtWidget sovellus, jossa tutkitaan kuinka dataa välitetään ikkunasta toiseen.
 
+
+## GuiData
+
+Edelleen tutkitaan kuinka data viedään uuteen ikkunaan. Ja tässä myös tutkitaan kuinka uudesta ikkunasta saadaan data alkuperäiseen ikkunaan. Esimerkissä tämä tehdään Signal-Slot systeemillä.
+
 ## SQLite tietokantaa käyttävät sovellukset
 
 Tein esimerkiksi kolme sovellusta, joissa käytetään SQLite tietokantaa:
